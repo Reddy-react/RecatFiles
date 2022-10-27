@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "name": "Thor(Chaithanya)",
+      "Salary": "4500000",
+      "company": "CTS",
+      "id": 1
+    },
+    {
+      "name": "Sudharsan Reddy",
+      "Salary": "30000",
+      "company": "xyz",
+      "id": 3
+    },
+    {
+      "name": "MSR",
+      "Salary": "1000000",
+      "company": "MTS",
+      "id": 4
+    }
+  ]
+}

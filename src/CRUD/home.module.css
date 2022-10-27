@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(27, 26, 18);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#nav>a{
+    color: crimson;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form{
+    height: 90vh;
+    width: 100%;
+    background-color:rgb(146, 146, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form>form{
+    height: 300px;
+    width: 300px;
+    background-color:brown;
+    border-radius: 10px;
+    line-height: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#form>form>label{
+    color:rgb(18, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+#form>form>input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(175, 209, 120);
+    height: 20px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+#form>form>button{
+    height: 20px;
+    width: 100px;
+    border: none;
+    background-color:rgb(175, 209, 120);
+    font-weight: 500;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#user{
+    height: 90vh;
+    width:100%;
+    background-color: rgb(115, 177, 168);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#profile{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(126, 22, 22);
+    color: rgb(244, 236, 247);
+    border-style:outset;
+    border-color: chocolate;
+    border-radius: 10px;
+    backdrop-filter:inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+#profile>.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+#profile>.btn>button{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(26, 167, 202);
+    border: none;
+    border-radius: 50px;
+}
+
+#profile>.btn>a{
+    height: 30px;
+    width: 80px;
+    background-color: aqua;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
